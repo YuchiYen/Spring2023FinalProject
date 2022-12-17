@@ -1,0 +1,12 @@
+h2 {
+    font-size: 14px;
+    height: 50px;
+}
+
+.container {
+    display: flex;
+}
+
+.container {
+    justify-content: center;
+}
