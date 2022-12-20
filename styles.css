@@ -4,9 +4,87 @@ h2 {
 }
 
 .container {
-    display: flex;
-}
-
-.container {
+    position: relative;
     justify-content: center;
 }
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.invalid {
+    box-shadow: 2px 2px 5px red;
+    background-color:lightpink;
+}
+
+.valid {
+    box-shadow: 2px 2px 5px forestgreen;
+}
+
+label {font-weight:bolder}
+
+label.lighter {font-weight:normal}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 150px;
+  }
+
+  div.eachAnimal
+  {
+    display: block;
+    height: 50%;
+    width: 100%;
+    border: 2px solid #969696;
+    background: #d1d1c5;
+    margin: 3px;
+  }
+
+  .topText {
+    display: block;
+    margin-left: auto;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .topDiv {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .otherDiv {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .left {
+    display: inline-block;
+
+    padding: 0 20px 20px 0;
+
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .right {
+    display: inline-block;
+
+    padding: 20 20px 20px 20;
+
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+

@@ -1,47 +1,52 @@
-
-
-
   class Animal {
-    constructor(pet) {
-      this.name = pet.name;
-      this.age = pet.age;
+    constructor(animal) {
+      this.name = animal.name;
+      this.age = animal.age;
+      this.address1 = animal.contact.address.address1;
+      this.address2 = animal.contact.address.address2;
+      this.city = animal.contact.address.city;
+      this.state = animal.contact.address.state;
+      this.postcode = animal.contact.address.postcode;
+      this.phone = animal.contact.phone;
+      this.email = animal.contact.email;
+      this.id = animal.id;
+      this.photo = animal.photos.length > 0 ? animal.photos[0].medium: "na.jpg";      
+      this.breedsPrimary = animal.breeds.primary;
+      this.url = animal.url;
+
     }
     BuildDiv() {
-        
-        const results = document.querySelector("#results");
-        const div = document.createElement("div");
-        div.classList.add("card", "card-body", "mb-3");
+        let div = document.createElement("div");
+        // div.classList.add("");
         div.innerHTML = `
-            <div class="row" >
-            <div class="col-sm-6">
-              <h4>${pet.name}(${pet.age})</h4>
-              <p class="text-secondary">${pet.breeds.primary}</p>
-              ${pet.contact.address.address1 ? `<p>${pet.contact.address.address1}}</p>` : " " }
-              <p>${pet.contact.address.city} ${pet.contact.address.state} ${pet.contact.address.postcode}</p>
-              <ul class="list-group">
-              <li class="list-group-item">Phone: ${pet.contact.phone}</li>
+            <div class="eachAnimal" >
+            <div class="left">
+            <a href="${this.url}" target="_blank"><img class="" src="${
+              this.photo
+            }"></a>
+          </div>
+            <div class="right">
+              <h4>Name: ${this.name}(${this.age})</h4><br/>
+              Breed: ${this.breedsPrimary}<br/>
+              ${this.address1 ? `${this.address1}}` : " " } <br/>
+              ${this.city} ${this.state} ${this.postcode}
+              <ul class="">
+              <li class="">Phone: ${this.phone}</li>
               ${
-                pet.contact.email
-                  ? `<li class="list-group-item">Email: ${pet.contact.email}</li>`
+                this.email
+                  ? `<li class="">Email: ${this.email}</li>`
                   : ' '
               }
-            <li class="list-group-item">Shelter ID:${pet.id}</li>
+            <li class="">Shelter ID:${this.id}</li>
               </ul>
             </div>
-            <div class="col-sm-6 text-center">
-              <img class="img-fluid rounded-circle mt-2" src="${
-                pet.photos[0].medium
-              }">
-            </div>
+
             </div>
             `;
-        results.appendChild(div);
+
+            console.log(div);       
+        document.querySelector("#searchResult").appendChild(div);
         
     }
   }
   
-  let myCar = new Car("Ford", 2014);
-  document.getElementById("demo").innerHTML =
-  "My car is " + myCar.age() + " years old.";
-
-
