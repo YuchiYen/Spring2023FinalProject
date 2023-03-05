@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<title>Find a pet to adopt</title>
+</head>
+
+<body>
+	<header>
+		<h2 class="topText">Find a pet to adopt</h2>
+		
+		<img id="img_to_flip" src="animal-3.jpg" title="Pet Image" class="center"/>
+	
+	</header>
+
+	<div class="container">
+		<form id="myForm">
+			<div class="topDiv">
+				<label for="animal">Animal: </label>
+				<select id="animal">
+					<option value="dog">Dog</option>
+					<option value="cat">Cat</option>
+					<option value="rabbit">Rabbit</option>
+					<option value="bird">Bird</option>
+					<option value="barnyard">Barnyard</option>
+				</select>
+				<br/>
+				<label for="zip">Zip: </label>
+				<input type="text" id="zip" class="" value="98004"> <span id="zipError" style="color:red;" class="hidden"></span>
+				<br/>
+
+				<label for="goodWithChildren">Good with children </label>
+				<input type="checkbox" id="goodWithChildren" name="goodWithChildren"><br/>
+
+				<label for="goodWitDogs">Good with dogs </label>
+				<input type="checkbox" id="goodWitDogs" name="goodWitDogs"><br/>
+
+				<label for="goodWitCats">Good with cats </label>
+				<input type="checkbox" id="goodWitCats" name="goodWitCats"><br/>
+
+				<label for="houseTrained">House trained </label>
+				<input type="checkbox" id="houseTrained" name=""><br/>
+
+				<label for="gender">Gender </label>
+				<label for="male" class="lighter">male</label><input type="checkbox" id="male" name="gender" value="male">
+				<label for="female" class="lighter">female</label><input type="checkbox" id="female" name="gender" value="female"><br/>
+
+				<label for="size">Size </label>
+				<label for="small" class="lighter">small</label><input type="checkbox" id="small" name="size" value="small" title="small">
+				<label for="medium" class="lighter">medium</label><input type="checkbox" id="medium" name="size" value="medium">
+				<label for="large" class="lighter">large</label><input type="checkbox" id="large" name="size" value="large">
+				<label for="xlarge" class="lighter">xlarge</label><input type="checkbox" id="xlarge" name="size" value="xlarge"><br/>
+				<input type="submit" value="Search" class="">
+
+			</div>
+		</form>
+		<br/>
+		<div class="otherDiv" id="searchResult"></div>
+	</div>
+	<script src=apiKeys.js></script>
+	<script src=animal.js></script>
+	<script src=script.js></script>
+</body>
+
+</html>

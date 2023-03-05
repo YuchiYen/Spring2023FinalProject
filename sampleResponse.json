@@ -1,0 +1,115 @@
+{
+    "id": 59164018,
+    "organization_id": "WA630",
+    "url": "https://www.petfinder.com/dog/enrique-59164018/wa/silvana/save-a-mutt-wa630/?referrer_id=9ea4e461-4340-452c-9f15-f32901c61f7c",
+    "type": "Dog",
+    "species": "Dog",
+    "breeds": {
+        "primary": "Akita",
+        "secondary": "Chow Chow",
+        "mixed": true,
+        "unknown": false
+    },
+    "colors": {
+        "primary": "Brown / Chocolate",
+        "secondary": "Apricot / Beige",
+        "tertiary": null
+    },
+    "age": "Baby",
+    "gender": "Male",
+    "size": "Medium",
+    "coat": "Medium",
+    "attributes": {
+        "spayed_neutered": true,
+        "house_trained": true,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": true
+    },
+    "environment": {
+        "children": true,
+        "dogs": true,
+        "cats": true
+    },
+    "tags": [
+        "Friendly",
+        "Affectionate",
+        "Loyal",
+        "Gentle",
+        "Playful",
+        "Smart",
+        "Dignified",
+        "Athletic",
+        "Funny",
+        "Curious",
+        "Brave",
+        "Couch potato",
+        "Loves kisses",
+        "Independent",
+        "Quiet",
+        "Protective"
+    ],
+    "name": "Enrique",
+    "description": "PLEASE READ: You MUST visit https://www.save-a-mutt.org/adoption-application/ to fill out an application and get pre-approved before meeting any Save-A-Mutt dogs. We...",
+    "organization_animal_id": null,
+    "photos": [
+        {
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/59164018/1/?bust=1671083258&width=100",
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/59164018/1/?bust=1671083258&width=300",
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/59164018/1/?bust=1671083258&width=600",
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/59164018/1/?bust=1671083258"
+        },
+        {
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/59164018/2/?bust=1671083259&width=100",
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/59164018/2/?bust=1671083259&width=300",
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/59164018/2/?bust=1671083259&width=600",
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/59164018/2/?bust=1671083259"
+        },
+        {
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/59164018/3/?bust=1671083260&width=100",
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/59164018/3/?bust=1671083260&width=300",
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/59164018/3/?bust=1671083260&width=600",
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/59164018/3/?bust=1671083260"
+        },
+        {
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/59164018/4/?bust=1671083261&width=100",
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/59164018/4/?bust=1671083261&width=300",
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/59164018/4/?bust=1671083261&width=600",
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/59164018/4/?bust=1671083261"
+        }
+    ],
+    "primary_photo_cropped": {
+        "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/59164018/1/?bust=1671083258&width=300",
+        "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/59164018/1/?bust=1671083258&width=450",
+        "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/59164018/1/?bust=1671083258&width=600",
+        "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/59164018/1/?bust=1671083258"
+    },
+    "videos": [],
+    "status": "adoptable",
+    "status_changed_at": "2022-12-15T05:47:43+0000",
+    "published_at": "2022-12-15T05:47:42+0000",
+    "distance": 40.4666,
+    "contact": {
+        "email": "adoptions@save-a-mutt.org",
+        "phone": "(425) 280-0502",
+        "address": {
+            "address1": null,
+            "address2": null,
+            "city": "Silvana",
+            "state": "WA",
+            "postcode": "98287",
+            "country": "US"
+        }
+    },
+    "_links": {
+        "self": {
+            "href": "/v2/animals/59164018"
+        },
+        "type": {
+            "href": "/v2/types/dog"
+        },
+        "organization": {
+            "href": "/v2/organizations/wa630"
+        }
+    }
+}
