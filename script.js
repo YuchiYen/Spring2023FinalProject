@@ -65,7 +65,7 @@ function retrieveFields() {
 					large.checked = true;
 					break;
 				case "xlarge":
-					xlarge.checked = true;
+					xlarge.checked = true;n
 					break;
 				default:
 					break;

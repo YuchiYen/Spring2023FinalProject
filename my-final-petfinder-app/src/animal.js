@@ -1,4 +1,4 @@
-  class Animal {
+export default  class Animal {
     constructor(animal) {
       this.name = animal.name;
       this.age = animal.age;
@@ -13,8 +13,8 @@
       this.photo = animal.photos.length > 0 ? animal.photos[0].medium: "na.jpg";      
       this.breedsPrimary = animal.breeds.primary;
       this.url = animal.url;
-
     }
+
     BuildDiv() {
         let div = document.createElement("div");
         // div.classList.add("");
