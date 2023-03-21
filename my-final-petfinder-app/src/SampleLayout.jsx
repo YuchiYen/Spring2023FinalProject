@@ -274,17 +274,13 @@ export default function SampleLayout() {
   }
 }
 
-
-
 function PetList(props) {
  
-
     return (<div id="grid">
     {props.items?.map((pet) => (
       <div className="pet" key={pet.id}>
         <div className="make3D">
-          <div className="pets-front">
-            
+          <div className="pets-front">            
 
             {pet.photos.length > 0 && pet.photos[0].medium && (
               <img src={pet.photos[0].medium} alt='pet image' style={{ maxHeight: "315px", objectFit: "cover"}}  />
