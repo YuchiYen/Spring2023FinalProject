@@ -278,7 +278,7 @@ function PetList(props) {
  
     return (<div id="grid">
     {props.items?.map((pet) => (
-      <div className="pet" key={pet.id}>
+      <div className="pet" key={pet.id} onClick={() => window.open(pet.url, "_blank")} style={{ cursor: "pointer" }} >
         <div className="make3D">
           <div className="pets-front">            
 
